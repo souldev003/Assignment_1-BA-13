@@ -338,6 +338,10 @@
     padding: 120px 120px 30px;
 }
 
+/* #footer-section hr {
+    
+} */
+
 #footer-section p {
     color: #FAFAFA;
     text-align: center;
@@ -368,4 +372,12 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.icons img {
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.3);
 }
