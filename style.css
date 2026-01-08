@@ -353,11 +353,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .social-content {
     margin-right: 107px;
-    margin-bottom: 80px;
 }
 
 .social-content h3 {
