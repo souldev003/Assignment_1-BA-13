@@ -330,3 +330,42 @@
     background-color: #469165;
     border-radius: 50%;
 }
+
+/* footer section  */
+
+#footer-section {
+    background-color: #001931;
+    padding: 120px 120px 30px;
+}
+
+#footer-section p {
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-content {
+    margin-right: 107px;
+    margin-bottom: 80px;
+}
+
+.social-content h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
