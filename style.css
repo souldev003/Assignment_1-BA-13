@@ -23,6 +23,38 @@
     border: 2px solid #469165;
 }
 
+.card {
+    max-width: 322px;
+    height: 300px;
+    padding: 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    /* border: 2px solid red; */
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 15px #469165a2;
+}
+
+.card:hover img {
+    background-color: #469165;
+}
+
+.card img {
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 7px;
+    transition: all 0.3s ease;
+}
+
 /* main style  */
 
 /* navbar */
@@ -155,4 +187,47 @@
 
 .play-btn:hover img {
     transform: rotate(60deg);
+}
+
+/* note section  */
+#note-container {
+    padding-top: 70px;
+    background-color: #fbfbfb;
+}
+
+.note-section {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fbfbfb;
+
+}
+
+.note-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.note-section p {
+    line-height: 20px;
+    color: #627382;
+}
+
+.note-cards {
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.note-cards h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #001931;
+    text-transform: capitalize;
 }
