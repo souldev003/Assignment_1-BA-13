@@ -13,9 +13,19 @@
     font-weight: 600;
     border: 2px solid transparent;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.green-btn:hover {
+    color: #469165;
+    background-color: #FFFFFF;
+    border: 2px solid #469165;
 }
 
 /* main style  */
+
+/* navbar */
 #navbar {
     max-width: 1360px;
     margin: 16px auto;
@@ -39,4 +49,110 @@
     text-decoration: none;
     color: #000000;
     font-weight: 500;
+}
+
+/* hero section  */
+#hero-section {
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 1600px;
+    max-height: 674px; */
+    margin: 0 auto;
+}
+
+.hero-container {
+    margin: 0 auto;
+    /* padding: 115px auto 179px; */
+    max-width: 1360px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-access-btn {
+    margin-top: 115px;
+    color: #469165;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: transform 0.3s ease;
+    margin-bottom: 16px;
+}
+
+.hero-access-btn:hover {
+    transform: scale(1.1);
+}
+
+.hero-container h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.hero-container h1 span {
+    color: #469165;
+}
+
+.hero-container p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 179px;
+}
+
+.vault-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vault-btn:hover img {
+    background-color: #469165;
+    border-radius: 50%;
+}
+
+.play-btn {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    background-color: #469165;
+    border: 2px solid #469165;
+}
+
+.play-btn img {
+    transition: transform 0.3s ease;
+}
+
+.play-btn:hover img {
+    transform: rotate(60deg);
 }
